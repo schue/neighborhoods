@@ -1,0 +1,2 @@
+appDir: 'src'
+baseUrl: 'build'

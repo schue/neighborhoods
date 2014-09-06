@@ -1,0 +1,16 @@
+{
+  "name": "neighborhood-project",
+  "version": "0.0.0",
+  "authors": [
+    "Ean Schuessler <ean@brainfood.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

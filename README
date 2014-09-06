@@ -1,0 +1,18 @@
+required frameworks:
+- npm
+- node
+- grunt (and perhaps grunt-cli)
+- bower
+- postgress & postgis
+
+
+to get this app to do something, execute the following commands:
+> npm install
+(install dependent packages as described in package.json)
+> bower update
+(pulls down web libraries as specified in bower.json)
+> grunt server
+(runs the default grunt task, followed by the execute grunt task, refer to Gruntfile.coffeescript for more accurate information)
+
+open a browswer and navigate to localhost:3000
+

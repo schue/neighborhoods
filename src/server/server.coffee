@@ -1,7 +1,7 @@
 define (require) ->
     class Server
         constructor: (config) ->
-            console.log 'C H A T S T E R O I D S : Server'
+            console.log 'Neighborhood Project : Server'
             @config = config
 
         start: ->

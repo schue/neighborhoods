@@ -1,3 +1,5 @@
+__dirname = @__dirname
+
 define (require) ->
     class WsWebSocketConnector
         constructor: ->
@@ -11,6 +13,6 @@ define (require) ->
             app.get('/', (req, res) ->
                 res.redirect '/index.html'
                 )
-            app.use(express.static('./static'))
+            app.use(express.static(__dirname + './static'))
 
             app.listen(port)

@@ -7,5 +7,6 @@ requirejs.config
     nodeRequire: require
 
 requirejs ['server/server', gameConfig], (Server, config) ->
+    config.rootDir = __dirname
     server = new Server(config)
     server.start()

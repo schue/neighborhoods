@@ -1,8 +1,7 @@
-__dirname = @__dirname
-
 define (require) ->
-    class WsWebSocketConnector
-        constructor: ->
+    class ExpressHttpConnector
+        constructor: (@config) ->
+            console.log('static files: ' + @config.rootDir)
 
         start: ->
             console.log '* Starting HTTP Connector'
@@ -13,6 +12,6 @@ define (require) ->
             app.get('/', (req, res) ->
                 res.redirect '/index.html'
                 )
-            app.use(express.static(__dirname + './static'))
+            app.use(express.static(@config.rootDir + '/../../static'))
 
             app.listen(port)

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "devserver.js",
+  "sourceRoot": "",
+  "sources": [
+    "devserver.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;AAAA,EAAA,MAAA,CAAO,SAAC,OAAD,GAAA;WACH;AAAA,MAAA,MAAA,EAAQ,gBAAR;AAAA,MACA,QAAA,EAAU,CACN,wBADM,EAEN,wBAFM,CADV;MADG;EAAA,CAAP,CAAA,CAAA;AAAA"
+}

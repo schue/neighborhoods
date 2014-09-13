@@ -12,6 +12,6 @@ define (require) ->
             app.get('/', (req, res) ->
                 res.redirect '/index.html'
                 )
-            app.use(express.static(@config.rootDir + '/../../static'))
+            app.use(express.static(@config.rootDir + '/../../dist/client'))
 
             app.listen(port)
